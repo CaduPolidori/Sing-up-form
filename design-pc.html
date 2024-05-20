@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="design-style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <img class="img-pc" src="./assets/images/illustration-sign-up-desktop.svg" alt="Windows and folders from a computer.">
+
+    <section id="text">
+
+      <div id="headline">
+        <h1 class="title">Stay updated!</h1>
+        <p class="p">Join 60,000+ product managers receiving monthly updates on:</p>
+      </div>
+
+      <div id="icons">
+        <img class="one" src="./assets/images/icon-success.svg" alt="An icon success">
+        <p>
+        Product discovery and building what matters        
+        </p>
+        
+        <br>
+
+        <img class="two" src="./assets/images/icon-success.svg" alt="An icon success">
+        <p>
+        Measuring to ensure updates are a success
+        </p>
+
+        <br>
+        
+        <img class="three" src="./assets/images/icon-success.svg" alt="An icon success">
+        <p>
+        And much more!
+        </p>
+      </div>
+    </section>
+
+    <section id="login">
+      <div>
+        <label id="txte" for="email">Email adress</label>
+        <br>
+        <input type="email" name="email" id="email" placeholder="ex: email@company.com">
+        <p id="fail"></p>
+      </div>
+      <div>
+        <a id="link">
+        <input type="button" id="btn" value="Subscribe to monthly newsletter" onclick="validateData()">
+        </a>
+      </div>
+    </section>
+
+  </div>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/CaduPolidori?tab=repositories" target="_blank">Carlos Eduardo Polidori Wendling</a>.
+  </footer>
+  
+
+  <script src="design-pc.js"></script>
+</body>
+</html>
